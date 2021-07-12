@@ -1,5 +1,6 @@
 language: csharp
 solution: WordFormatter.sln
+dotnet: 3.1
 
 install:
   - nuget restore WordFormatter.sln
