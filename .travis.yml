@@ -1,0 +1,7 @@
+language: csharp
+solution: WordFormatter.sln
+
+install:
+  - nuget restore WordFormatter.sln
+script:
+  - msbuild /p:Configuration=Release WordFormatter.sln
